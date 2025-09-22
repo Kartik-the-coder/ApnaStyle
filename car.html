@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ 
+            background-image: url("web.jpg");
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .navbar{
+            background: transparent;
+            margin-top: 50px;
+            align-items: center;
+        }
+        a{
+           color:black;
+           text-decoration: none;
+           margin-left: 200px;
+           font-size: 30px;
+           font-weight: bold;
+        }
+        img{
+            width: 300px;
+            float: left;
+        }
+        .sentence{
+            margin-top: 100px;
+            margin-left: 200px;
+            font-size: 100px;
+        }
+        .banner{
+            font-size: 100px;
+            margin-left: 200px;
+            color: rgb(219,134,23);
+        }
+        .box{
+            width: 500px;
+            height: 20px;
+            background:transparent;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-left: 670px;
+            border-style: solid;
+            border-color: rgb(31, 30, 30);
+            align-items: center;
+            margin-top: 200px;
+            margin-bottom: 400px;
+        }
+        .search{  
+    
+    width: 440px;
+    height: 50px;
+    background: transparent;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+        }
+        i{
+            font-size: 30px;
+        }
+        .find{
+            margin-left: 770px;
+            font-size: 90px;
+            color:black;
+
+        }
+        .student{
+            text-align: center;
+        }
+        .opp{
+            font-size: 60px;
+        }
+        p{
+            font-size: 30px;
+        }
+        button{
+            font-size: 30px;
+            border: 2px solid black;
+            width: 500px;
+            background: transparent;
+            border-radius: 30px;
+        }
+        hr{
+            border: 2px solid gray;
+        }
+        .cate{
+            margin: 5px;
+            border: 2px solid grey;
+            width: 700px;
+            height: auto;
+            margin-left: 600px;
+        }
+        div.cate img{
+            width: 700px;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+       .build{
+        background-color: rosybrown;
+        height: 300px;
+       }
+       .btn{
+       margin-left: 500px;
+       }
+    
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo final.png" alt="logo" claas="logo">
+        <a href="account.html">Account</a>
+        <a href="#">About Apnastyle</a>
+        <a href="life.html">Life at Apnastyle</a>
+        <a href="job.html">Jobs</a>
+    </div><br><br>
+    <div class="job">
+        <p class="find"><b>Find Jobs</b></p>
+    </div>
+    
+        <div class="box">
+            <div class="glass"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <input type="text" placeholder="Search" class="search">
+        </div>
+        <div class="student">
+            <p class="opp">Opportunities For Students</p>
+            <p>Learn About, Search for,and apply to internships and full time opportunities for students.</p>
+            <div class="view">
+                <button onclick="location.href='student.html'" type="button">View open jobs</button>
+            </div>
+        </div><hr>
+        <div class="student">
+            <p class="opp">Warehouse and Hourly Jobs</p>
+            <p>Search open jobs and learn about job opportunities at Apnastyle.</p>
+            <div class="view">
+                <button onclick="location.href='job.html'" type="button">View open jobs</button>
+            </div>
+        </div><hr>
+        <div class="student">
+            <p class="opp">Software Development</p>
+            <p>Explore job opportunitiesand what it's like to be a software engineer at Apnastyle.</p>
+            <div class="view">
+                <button onclick="location.href='soft.html'" type="button">View open jobs</button>
+            </div>
+        </div><hr>
+        <div>
+        <h1>Explore Opportunities</h1>
+        <div class="cate">
+            <img src="develop.jpg" alt="img">
+            <p style="font-size: 50px;">Job Categories</p>
+            <p id="job" style="font-size: 30px;">Find the right job for you.</p>
+            <a href="job.html">See all job categories</a>
+        </div>
+        <div class="cate">
+            <img src="img2.webp" alt="img">
+            <p style="font-size: 50px;">Locations</p>
+            <p id="job" style="font-size: 30px;">View Apnastyle's office locations across India.</p>
+            <a href="location.html">See all job categories</a>
+        </div>
+        </div>
+        <div class="build">
+            <h1>Come build the future with us</h1>
+            <p style="margin-left: 200px; margin-right: 200px; text-align: center;">Our mission is to be unite Apnastyle users across India as we all striving to
+                 delight our customers and make their lives easier, one innovative product, service and idea at a time.</p>
+            
+                 <div class="btn"><a href="#"><button>Learn about working at Apnastyle</button></a></div>
+        </div>
+</body>
+</html>
